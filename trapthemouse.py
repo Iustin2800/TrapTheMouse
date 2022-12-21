@@ -211,7 +211,7 @@ class App:
             elif self.difficulty == 2:
                 possible_next_moves = []
                 for move in possible_moves:
-                    if 0 <= self.mouse[0] + move[0] < self.dim[0] and 0 <= self.mouse[1] + move[1] < self.dim[1] and self.grid[self.mouse[0] + move[0]][self.mouse[1] + move[1]] != -1 and (abs(self.mouse[0] + move[0] - target[0]) <= 1 or abs(self.mouse[1] + move[1] - target[1]) <= 1):
+                    if 0 <= self.mouse[0] + move[0] < self.dim[0] and 0 <= self.mouse[1] + move[1] < self.dim[1] and self.grid[self.mouse[0] + move[0]][self.mouse[1] + move[1]] != -1 and (abs(self.mouse[0] + move[0] - target[0]) <= 1 and abs(self.mouse[1] + move[1] - target[1]) <= 1):
                         possible_next_moves.append((self.mouse[0] + move[0], self.mouse[1] + move[1]))
                 if len(possible_next_moves) > 0:
                     target = possible_next_moves[pyxel.rndi(0, len(possible_next_moves) - 1)]
