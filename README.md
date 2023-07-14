@@ -12,7 +12,7 @@ python3 -m pip install -U pyxel
 python trapthemouse.py [0-3]
 ```
 
-- 0: 2-Player
+- 0: Two-Player
 - 1: AI, easy difficulty
 - 2: AI, medium difficulty
 - 3: AI, hard difficulty
