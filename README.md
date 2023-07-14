@@ -1,6 +1,6 @@
 # Trap the Mouse
 
-![alt text](https://github.com/Iustin2800/TrapTheMouse/blob/main/video.gif?raw=true)
+<img src="https://github.com/Iustin2800/TrapTheMouse/blob/main/video.gif?raw=true" style="width: 60%; height: 60%">
 
 # Run through console
 
