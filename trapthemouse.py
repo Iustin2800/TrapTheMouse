@@ -263,3 +263,5 @@ class App:
 
 if len(sys.argv) > 1 and '0' <= sys.argv[1] <= '9':
     App(int(sys.argv[1]))
+else:
+    App(3)
